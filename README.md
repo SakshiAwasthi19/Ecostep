@@ -1,36 +1,74 @@
-# Welcome to the project
+# Ecostep
 
-**Use your preferred IDE**
+**Ecostep** is a full-stack application designed to help users track and reduce their carbon footprint in an engaging and intelligent manner. With a mobile-first UI, real-time calculations, and gamification features such as badges and leaderboards, Ecostep motivates individuals—especially students—to make eco-friendly choices and see the impact instantly.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Technologies Used
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **Frontend**:  
+  - [Vite](https://vitejs.dev/)
+  - [TypeScript](https://www.typescriptlang.org/)
+  - [React](https://react.dev/)
+  - [shadcn-ui](https://ui.shadcn.com/)
+  - [Tailwind CSS](https://tailwindcss.com/)
 
-Follow these steps:
+- **Backend**:  
+  - [Node.js](https://nodejs.org/)
+  - [Express](https://expressjs.com/)
+  - [MongoDB](https://www.mongodb.com/)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Features
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Track and visualize your carbon footprint in real time
+- Gamification: Earn badges and climb leaderboards to boost engagement
+- Mobile-first, responsive design for seamless usage on any device
+- Intelligent suggestions to help you reduce your footprint
 
-# Step 3: Install the necessary dependencies.
-npm i
+## Intended Users
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- Students
+- Individuals seeking to monitor and lower their carbon emissions
 
+## Getting Started
 
-## What technologies are used for this project?
+### Prerequisites
 
-This project is built with:
+- [Node.js](https://nodejs.org/) & [npm](https://www.npmjs.com/) installed (recommended: use [nvm](https://github.com/nvm-sh/nvm))
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Local Development
 
+Use your preferred IDE to work locally. Pushed changes will also be reflected in Lovable.
 
+#### Steps:
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/SakshiAwasthi19/Ecostep.git
+   ```
+2. **Navigate to the project directory:**
+   ```sh
+   cd Ecostep
+   ```
+3. **Install dependencies:**
+   ```sh
+   npm i
+   ```
+4. **Start the development server:**
+   ```sh
+   npm run dev
+   ```
+   The app will be available for instant preview with auto-reloading.
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](LICENSE)
+
+## Contact
+
+Maintainer: [SakshiAwasthi19](https://github.com/SakshiAwasthi19)
+
+---
+_Ecostep: Track, reduce, and gamify your journey to a greener future!_
